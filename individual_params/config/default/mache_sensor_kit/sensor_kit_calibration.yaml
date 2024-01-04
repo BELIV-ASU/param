@@ -1,5 +1,5 @@
 sensor_kit_base_link:
-  camera1/camera_link:
+  camera0/camera_link:
     x: 2.0
     y: 0.0
     z: 1.7300000000000004
@@ -20,17 +20,17 @@ sensor_kit_base_link:
     roll: -0.17876020721059885
     pitch: -0.007054580004203554
     yaw: 3.130777421420325
-  gnss_link:
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    roll: 0.0
-    pitch: 0.0
-    yaw: 0.0
   imu_link:
     x: 0.0
     y: 0.0
     z: 0.0
-    roll: 0.0
+    roll: 3.14159265327 #3.14159265327
     pitch: 0.0
-    yaw: 0.0
+    yaw: 1.570796327 #1.570796327
+  gnss_link:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    roll: 0.0 #3.14159265327 #3.14159265327
+    pitch: 0.0
+    yaw: 0.0 #1.570796327 #1.570796327
